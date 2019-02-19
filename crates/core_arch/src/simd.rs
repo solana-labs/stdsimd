@@ -105,7 +105,7 @@ simd_ty!(i16x4[i16]: i16, i16, i16, i16 | x0, x1, x2, x3);
 simd_ty!(i32x2[i32]: i32, i32 | x0, x1);
 simd_ty!(i64x1[i64]: i64 | x1);
 
-simd_ty!(f32x2[f32]: f32, f32 | x0, x1);
+//simd_ty!(f32x2[f32]: f32, f32 | x0, x1);
 
 // 128-bit wide types:
 
@@ -131,8 +131,8 @@ simd_ty!(i16x8[i16]:
 simd_ty!(i32x4[i32]: i32, i32, i32, i32 | x0, x1, x2, x3);
 simd_ty!(i64x2[i64]: i64, i64 | x0, x1);
 
-simd_ty!(f32x4[f32]: f32, f32, f32, f32 | x0, x1, x2, x3);
-simd_ty!(f64x2[f64]: f64, f64 | x0, x1);
+//simd_ty!(f32x4[f32]: f32, f32, f32, f32 | x0, x1, x2, x3);
+//simd_ty!(f64x2[f64]: f64, f64 | x0, x1);
 
 simd_m_ty!(m8x16[i8]:
            i8, i8, i8, i8, i8, i8, i8, i8,
