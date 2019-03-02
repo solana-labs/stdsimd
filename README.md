@@ -1,3 +1,9 @@
+# Fork of the Rust Programming Language's stdsimd library
+
+Used by [rust-bpf-sysroot](https://github.com/solana-labs/rust-bpf-sysroot)
+
+---
+
 stdsimd - Rust's standard library SIMD components
 =======
 
